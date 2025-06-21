@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gsap learning</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href='//fonts.googleapis.com/css?family=Signika+Negative:300,400' rel='stylesheet' type='text/css'>
+
 </head>
+
 <body>
+
+    <div><button class="dark-grey-button club-demo-button" id="svgOrigin">hammasini aylantirish </button>
+
+        <button class="dark-grey-button club-demo-button" id="transformOrigin">aylantirish</button>
+    </div>
+
+    <svg id="container" viewBox="0 0 600 400">
+        <rect style="stroke-miterlimit:10;" width="900" height="900" />
+        <g fill="#0ae448">
+            <rect class="box" x="44" y="110" width="65" height="65" />
+            <rect class="box" x="270" y="51" width="55" height="55" />
+            <rect class="box" x="491" y="98.5" width="53.5" height="53.5" />
+            <rect class="box" x="430" y="290" width="96.5" height="96.5" />
+            <rect class="box" class="box" x="302" y="190" width="80" height="80" />
+            <rect class="box" x="140" y="259" width="64" height="64" />
+        </g>
+    </svg>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
