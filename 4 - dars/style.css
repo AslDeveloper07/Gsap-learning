@@ -1,0 +1,40 @@
+/* 1 chi Gsap animatsion Split text */
+
+body {
+    background: #111;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+
+  .text span {
+    display: inline-block;
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+
+
+/* 2 chi Gsap animatsion Split text */
+
+   .text2 span {
+    display: inline-block;
+    opacity: 0;
+    transform: translate(
+      calc(30px - 60px * Math.random()),
+      calc(30px - 60px * Math.random())
+    );
+  }
+
+/* 3 chi Gsap animatsion Split text */
+
+.text3 span {
+    display: inline-block;
+    opacity: 0;
+    transform: rotateX(90deg);
+  }
+
+/* 4 chi Gsap animatsion Split text */
+
